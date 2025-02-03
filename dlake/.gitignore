@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.duckdb
+*.parquet
+*.env
+*.ipynb
+poetry.lock
+
