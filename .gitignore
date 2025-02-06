@@ -5,6 +5,6 @@ __pycache__/
 *.duckdb
 *.parquet
 *.env
-*.ipynb
+
 
 
