@@ -6,9 +6,9 @@ fake = Faker("pt_BR")
 
 # Caminhos dos bancos de dados DuckDB
 db_paths = {
-    "DB1": "db1.duckdb",
-    "DB2": "db2.duckdb",
-    "DB3": "db3.duckdb"
+    "DB1": "/Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb",
+    "DB2": "/Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb",
+    "DB3": "/Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb"
 }
 
 # Função para pegar o último ID da tabela

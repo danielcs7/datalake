@@ -1,5 +1,6 @@
 import os
 import duckdb
+import pandas as pd
 from minio import Minio
 from minio.error import S3Error
 
@@ -11,17 +12,16 @@ minio_client = Minio(
     secure=False  
 )
 
-# Buckets e configurações
-source_bucket = "landzone"  
-dest_bucket = "datalake"    
-base_prefix = "bronze"      
-
 # Mapeamento de subpastas
 sub_prefix_mapping = {
     "db1": "bronzedb1",
     "db2": "bronzedb2",
     "db3": "bronzedb3"
 }
+# Buckets e configurações
+source_bucket = "landzone"  
+dest_bucket = "datalake"    
+base_prefix = "bronze"      
 
 # Diretório temporário para processamento
 temp_dir = "/tmp/minio_temp"
@@ -29,41 +29,65 @@ os.makedirs(temp_dir, exist_ok=True)
 
 # Conexão com DuckDB
 duckdb_conn = duckdb.connect(database=":memory:")  # Usando banco em memória para performance
-
-def list_existing_files(minio_client, bucket_name, prefix):
-    """ Lista os arquivos existentes no bucket de destino """
+def list_existing_files(minio_client, dest_bucket, base_prefix):
+    """
+    Lista os arquivos já existentes no bucket de destino para o prefixo fornecido.
+    """
     try:
-        objects = minio_client.list_objects(bucket_name, prefix=prefix, recursive=True)
-        return {obj.object_name for obj in objects}
+        # Lista todos os objetos no bucket de destino com o prefixo base
+        objects = minio_client.list_objects(dest_bucket, prefix=base_prefix, recursive=True)
+        existing_files = [obj.object_name for obj in objects]
+        return existing_files
     except S3Error as e:
-        print(f"❌ Erro ao listar arquivos no bucket '{bucket_name}': {e}")
-        return set()
+        print(f"❌ Erro ao listar arquivos existentes no bucket '{dest_bucket}': {e}")
+        return []
 
-def process_upsert(landzone_file, bronze_file):
-    """ Realiza o upsert entre os dados do landzone e bronze usando DuckDB """
+
+def compare_and_upsert(landzone_file, bronze_file):
+    """ Realiza o upsert garantindo que a estrutura e ordem dos dados sejam mantidas. """
     print(f"🔄 Processando upsert para '{landzone_file}'...")
 
-    # Carregar o novo arquivo da landzone
-    df_new = duckdb.read_parquet(landzone_file)
+    # Carregar os dados da landzone
+    df_landzone = duckdb.read_parquet(landzone_file).df()
 
-    # Verificar se o arquivo já existe na camada bronze
-    if os.path.exists(bronze_file):
-        df_existing = duckdb.read_parquet(bronze_file)
+    # Salvar a ordem correta das colunas
+    expected_columns = df_landzone.columns.tolist()
 
-        # Fazendo um merge (upsert) baseado na chave primária (ajuste conforme necessário)
-        df_upserted = duckdb.sql("""
-            SELECT * FROM df_existing
-            WHERE id NOT IN (SELECT id FROM df_new)  
-            UNION ALL 
-            SELECT * FROM df_new
-        """).df()
+    # Se o arquivo bronze não existir, cria com a estrutura correta
+    if not os.path.exists(bronze_file):
+        print(f"📦 Criando bronze com a mesma estrutura da landzone.")
+        df_landzone.to_parquet(bronze_file, index=False)
+        return bronze_file
 
-        print(f"✅ Upsert concluído, registros novos/finalizados: {df_upserted.shape[0]}")
-    else:
-        df_upserted = df_new  # Se o arquivo não existe, apenas mantém os novos dados
+    # Carregar os dados da camada bronze
+    df_bronze = duckdb.read_parquet(bronze_file).df()
 
-    # Salvar o resultado atualizado
-    df_upserted.to_parquet(bronze_file)
+    # **Forçar a mesma ordem de colunas**
+    df_bronze = df_bronze.reindex(columns=expected_columns)
+
+    # **Verificar diferenças entre landzone e bronze**
+    df_diff = duckdb.sql("""
+        SELECT * FROM df_landzone
+        EXCEPT 
+        SELECT * FROM df_bronze
+    """).df()
+
+    if df_diff.empty:
+        print(f"✅ Nenhuma diferença encontrada. Nenhuma ação necessária.")
+        return bronze_file
+
+    print(f"⚠️ Diferenças encontradas! Inserindo ou atualizando dados.")
+
+    # **Manter a ordem original da landzone**
+    df_upserted = pd.concat([df_bronze, df_diff], ignore_index=True).drop_duplicates()
+    df_upserted = df_upserted[expected_columns]  # 🔹 **Mantendo a ordem correta**
+
+    # Salvar garantindo a ordem certa
+    df_upserted.to_parquet(bronze_file, index=False)
+
+    print(f"✅ Upsert concluído, {df_diff.shape[0]} linhas inseridas ou atualizadas.")
+    print(f"📂 Ordem final das colunas no bronze: {df_upserted.columns.tolist()}")
+
     return bronze_file
 
 def migrate_files(minio_client, source_bucket, dest_bucket, base_prefix):
@@ -101,9 +125,9 @@ def migrate_files(minio_client, source_bucket, dest_bucket, base_prefix):
                     bronze_file = os.path.join(temp_dir, f"bronze_{os.path.basename(object_name)}")
 
                     # Fazer o upsert com DuckDB
-                    process_upsert(local_file, bronze_file)
+                    compare_and_upsert(local_file, bronze_file)
 
-                    # Enviar para o MinIO (camada bronze)
+                    # Enviar para o MinIO (camada bronze) na pasta correta
                     minio_client.fput_object(dest_bucket, dest_object_name, bronze_file)
                     print(f"✅ '{object_name}' atualizado na camada bronze '{dest_object_name}'!")
 
