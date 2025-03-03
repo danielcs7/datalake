@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Em processamento UPLOAD BRONZE..."
+echo "Em processamento UPLOAD SILVER..."
 
 #Caminho para o diretorio do projeto
 cd /Volumes/MACBACKUP/workspaceDlake/dlake || {
@@ -15,7 +15,7 @@ source .venv/bin/activate || {
 }
 
 # Executa o script Python
-python src/s_uploadSilver/1_upsertSilver.py || {
+python src/2_uploadSilver/2_upsertSilver.py || {
     echo "Error: O script Python encontrou um problema"
     deactivate
     exit 1

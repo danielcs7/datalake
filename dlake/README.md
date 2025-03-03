@@ -85,3 +85,63 @@ upload_task = PythonOperator(
 
 upload_task
  depois irá rodar o script da pasta 1_uploadBronze que é 1_upsertBronze.py , DEPOIS IRÁ rodar o script da pasta 2_uploadSilver que é 2_upsertSilver.py, depois ira rodar o script da psta 3_uploadsilverAnaliticsMinio que é uploadAnalitics.py e por ultimo rodar o script da pasta 4_uploadgoldMinio que é 4_uploadgoldMinio
+
+
+
+ essa é minha conexao com o minio minio_client = Minio(
+    "127.0.0.1:9001",  # URL do MinIO
+    access_key="minioadmin",
+    secret_key="minioadmin",
+    secure=False
+) essa é a minha variavel bronze_bucket = "datalake/bronze" onde informo o endereço do meu bucket onde tem o bucket datalake e dentro dele o bronze - aqui chamo a função bronze_files = list_files(bronze_bucket) e essa é minha função # Função para listar arquivos em um bucket
+def list_files(bucket_name, prefix=""):
+    if not minio_client.bucket_exists(bucket_name):
+        print(f"Bucket '{bucket_name}' não existe.")
+        return [] só que no bucket datalake tenho a subpasta bronze e dentro tenho outras subspastas que são db1 db2 e db3 e dentro de cada uma tenho os arquivos 
+    
+    try:
+        objects = minio_client.list_objects(bucket_name, prefix=prefix, recursive=True)
+        return [obj.object_name for obj in objects]
+    except S3Error as e:
+        print(f"Erro ao listar arquivos no bucket '{bucket_name}': {e}")
+        return [] só que 
+
+
+
+datalake/
+     bronze/
+        db1/
+          fornecedores/
+                     fornecedores_db1.parquet
+          produtos/
+                  produtos_db1.parquet
+        db2/
+          fornecedores/
+                     fornecedores_db2.parquet
+          produtos/
+                  produtos_db2.parquet
+                                     
+datalake/
+     bronze/
+        db1/
+          fornecedores_db1.parquet
+          produtos_db1.parquet
+        db2/
+          fornecedores_db2.parquet
+          produtos_db2.parquet
+
+datalake/
+     silver/
+        db1/
+          fornecedores_db1.parquet
+          produtos_db1.parquet
+        db2/
+          fornecedores_db2.parquet
+          produtos_db2.parquet
+
+datalake/
+     silveranalitics/
+            fornecedores.parquet
+            produtos.parquet
+
+

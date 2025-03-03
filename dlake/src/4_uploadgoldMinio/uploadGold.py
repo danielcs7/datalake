@@ -6,7 +6,7 @@ from minio.error import S3Error
 
 # Configuração do MinIO
 minio_client = Minio(
-    "127.0.0.1:9001",
+    "192.168.64.1:9001",
     access_key="minioadmin",
     secret_key="minioadmin",
     secure=False
@@ -17,32 +17,32 @@ bucket_name = "datalake"
 silver_prefix = "silveranalitics/"
 gold_prefix = "gold/"
 
-# Mapeamento de arquivos da camada *silveranalitics* e seus destinos na *gold*
+# Mapeamento de arquivos
 gold_mapping = {
     "Fornecedor": {
-        "source_file": silver_prefix + "silverAnaliticsFornecedor.parquet",
-        "dest_file": gold_prefix + "goldFornecedor.parquet",
-        "id_column": "idFornecedor"
+        "source_file": silver_prefix + "silverAnaliticsFornecedor.csv",
+        "dest_file": gold_prefix + "goldFornecedor.csv",
+        "id_column": "id"
     },
     "Produtos": {
-        "source_file": silver_prefix + "silverAnaliticsProdutos.parquet",
-        "dest_file": gold_prefix + "goldProdutos.parquet",
-        "id_column": "idProduto"
+        "source_file": silver_prefix + "silverAnaliticsProdutos.csv",
+        "dest_file": gold_prefix + "goldProdutos.csv",
+        "id_column": "id"
     },
     "Vendas": {
-        "source_file": silver_prefix + "silverAnaliticsVendas.parquet",
-        "dest_file": gold_prefix + "goldVendas.parquet",
-        "id_column": "idVendas",
+        "source_file": silver_prefix + "silverAnaliticsVendas.csv",
+        "dest_file": gold_prefix + "goldVendas.csv",
+        "id_column": "id",
         "join_files": {
-            "Vendedor": silver_prefix + "silverAnaliticsVendedor.parquet",
-            "Produtos": silver_prefix + "silverAnaliticsProdutos.parquet",
-            "Fornecedor": silver_prefix + "silverAnaliticsFornecedor.parquet"
+            "Vendedor": silver_prefix + "silverAnaliticsVendedor.csv",
+            "Produtos": silver_prefix + "silverAnaliticsProdutos.csv",
+            "Fornecedor": silver_prefix + "silverAnaliticsFornecedor.csv"
         }
     },
     "Vendedor": {
-        "source_file": silver_prefix + "silverAnaliticsVendedor.parquet",
-        "dest_file": gold_prefix + "goldVendedor.parquet",
-        "id_column": "idVendedor"
+        "source_file": silver_prefix + "silverAnaliticsVendedor.csv",
+        "dest_file": gold_prefix + "goldVendedor.csv",
+        "id_column": "id"
     }
 }
 
@@ -54,7 +54,7 @@ def process_gold(data_category, config):
         # Baixar arquivo da *silveranalitics*
         try:
             minio_client.fget_object(bucket_name, config["source_file"], local_path)
-            df = pd.read_parquet(local_path)
+            df = pd.read_csv(local_path, sep='|')
             print(f"📥 Arquivo '{config['source_file']}' carregado.")
         except S3Error as e:
             print(f"⚠️ Erro ao baixar '{config['source_file']}': {e}")
@@ -72,7 +72,7 @@ def process_gold(data_category, config):
                 join_local_path = f"/tmp/{join_file.split('/')[-1]}"
                 try:
                     minio_client.fget_object(bucket_name, join_file, join_local_path)
-                    join_df = pd.read_parquet(join_local_path)
+                    join_df = pd.read_csv(join_local_path, sep='|')
                     con.register(join_table.lower(), join_df)
                     print(f"🔗 '{join_file}' carregado para *join*.")
                 except S3Error as e:
@@ -84,7 +84,7 @@ def process_gold(data_category, config):
                 DROP TABLE IF EXISTS final_table;
                 CREATE TABLE final_table AS
                 SELECT 
-                    v.idVendas, 
+                    v.id as idVendas, 
                     v.data as dataVenda, 
                     STRFTIME('%Y%m', CAST(v.data AS DATE)) AS anoMes,
                     CASE
@@ -93,15 +93,15 @@ def process_gold(data_category, config):
                     END AS semestre,
                     CAST((CAST(STRFTIME('%m', CAST(v.data AS DATE)) AS INTEGER) + 1) / 2 AS TEXT) AS bimestre,
                     CAST((CAST(STRFTIME('%m', CAST(v.data AS DATE)) AS INTEGER) + 2) / 3 AS TEXT) AS trimestre,         
-                    v.valorTotal, 
-                    p.nomeProduto, 
-                    f.nomeFornecedor, 
-                    ve.nomeVendedor
+                    v.valor_total as valorTotal, 
+                    p.nome as nomeProduto, 
+                    f.nome as nomeFornecedor, 
+                    ve.nome as nomeVendedor
                 FROM temp_table v
-                LEFT JOIN produtos p ON v.idProdutos = p.idProduto
-                LEFT JOIN fornecedor f ON v.idFornecedor = f.idFornecedor
-                LEFT JOIN vendedor ve ON v.idVendedor = ve.idVendedor
-                ORDER BY v.idVendas ASC
+                LEFT JOIN produtos p ON v.id = p.id
+                LEFT JOIN fornecedor f ON v.id = f.id
+                LEFT JOIN vendedor ve ON v.id = ve.id
+                ORDER BY v.id ASC
             """)
         else:
             # Apenas remover duplicatas para as outras tabelas
@@ -112,9 +112,9 @@ def process_gold(data_category, config):
                 ORDER BY {config["id_column"]} ASC
             """)
 
-        # Exportar resultado para *Parquet*
+        # Exportar resultado para *CSV*
         output_file = f"/tmp/{config['dest_file'].split('/')[-1]}"
-        con.execute(f"COPY final_table TO '{output_file}' (FORMAT 'PARQUET')")
+        con.execute(f"COPY final_table TO '{output_file}' (FORMAT 'CSV', DELIMITER '|')")
         
         # Enviar para o MinIO na camada *gold*
         try:

@@ -1,0 +1,1522 @@
+2025-02-08 06:18:57,552 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 06:24:13,446 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365ee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:24:13,887 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365f190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:24:14,691 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365f6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:24:16,297 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365f8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:24:19,499 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365fa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:13,536 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e576e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:13,961 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e577190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:14,790 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e5776a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:16,393 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e5778b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:19,600 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11e577a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:42,338 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11851ae60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:42,742 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11851b190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:43,547 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11851b6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:45,153 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11851b8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:25:48,360 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11851ba60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:20,424 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11be4ee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:20,885 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11be4f190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:21,689 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11be4f6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:23,292 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11be4f8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:26,497 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11be4fa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:39,857 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d246e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:40,261 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d247190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:41,086 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d2476a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:42,717 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d2478b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:26:45,924 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11d247a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:07,920 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1215aee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:08,325 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1215af190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:09,129 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1215af6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:10,734 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1215af8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:13,937 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1215afa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:32,296 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12105ae60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:32,702 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12105b190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:33,509 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12105b6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:35,113 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12105b8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:27:38,322 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12105ba60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:03,480 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1241bee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:03,886 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1241bf190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:04,692 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1241bf6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:06,296 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1241bf8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:09,499 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1241bfa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:37,680 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c266e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:38,082 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c267190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:38,885 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c2676a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:40,503 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c2678b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:28:43,709 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11c267a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:04,741 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119776e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:05,147 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119777190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:05,951 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1197776a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:07,558 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1197778b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:10,763 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x119777a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:47,280 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116b16e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:47,687 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116b17190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:48,491 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116b176a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:50,098 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116b178b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:29:53,301 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116b17a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:13,969 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a97ee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:14,374 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a97f190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:15,177 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a97f6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:16,782 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a97f8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:19,987 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a97fa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:37,359 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ddc6e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:37,765 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ddc7190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:38,569 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ddc76a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:40,176 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ddc78b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:43,381 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11ddc7a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:57,671 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365ae60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:58,129 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365b190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:30:58,938 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365b6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:00,544 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365b8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:03,746 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12365ba60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:32,815 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a25ee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:33,217 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a25f190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:34,024 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a25f6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:35,627 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a25f8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:31:38,831 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11a25fa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:14,730 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa2e60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:15,135 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa3190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:15,939 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa36a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:17,545 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa38b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:20,748 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x116fa3a60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:47,006 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121baee60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:47,418 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121baf190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:48,223 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121baf6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:49,826 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121baf8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:32:53,032 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x121bafa60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:33:15,391 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11dbaae60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:33:15,719 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11dbab190>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:33:16,526 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11dbab6a0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:33:18,130 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11dbab8b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 06:33:21,333 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x11dbaba60>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-08 09:16:01,184 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:01,330 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,400 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:01,442 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,493 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:01,530 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,554 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:01,581 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,647 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:01,685 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,708 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:01,742 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,768 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:01,804 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,840 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:01,869 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:01,976 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:02,011 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:02,037 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:02,066 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:02,098 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:02,135 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:02,168 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:02,197 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,336 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:19,427 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,450 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:19,483 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,503 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:19,535 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,565 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:19,596 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,618 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:19,655 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,680 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:19,711 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,738 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:19,776 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,801 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:19,826 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,849 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:19,882 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,906 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:19,944 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:19,964 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:19,989 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:20,006 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:20,032 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,422 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:41,618 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,637 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:41,662 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,684 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:41,709 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,726 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:16:41,755 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,783 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:41,809 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,826 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:41,852 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,878 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:41,955 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:41,971 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:16:41,992 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:42,011 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:42,035 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:42,052 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:42,075 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:42,090 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:42,120 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:16:42,137 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:16:42,159 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,642 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:04,726 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,741 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:04,764 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,783 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:04,807 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,823 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:04,843 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,859 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:04,881 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,898 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:04,924 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,942 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:04,971 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:04,986 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:05,016 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:05,036 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:05,066 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:05,088 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:05,123 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:05,146 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:05,186 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:05,206 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:05,274 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,082 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:32,224 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,266 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:32,301 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,325 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:32,372 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,403 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:32,452 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,645 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:32,710 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,816 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:32,924 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:32,992 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:33,049 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:33,082 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:33,189 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:33,250 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:33,330 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:33,373 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:33,509 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:33,670 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:33,710 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:33,736 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:33,778 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,276 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:52,426 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,461 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:52,508 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,543 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:52,611 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,654 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:17:52,696 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,738 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:52,781 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,812 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:52,884 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:52,915 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:52,965 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:53,009 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:17:53,072 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:53,104 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:53,145 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:53,177 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:53,256 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:53,286 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:53,353 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:17:53,387 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:17:53,435 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:17,965 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:18,070 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,093 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:18,121 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,137 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:18,164 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,182 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:18,205 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,223 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:18,376 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,453 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:18,541 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,593 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:18,661 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,703 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:18,776 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,819 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:18,873 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,906 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:18,954 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:18,980 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:19,029 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:19,060 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:19,109 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:37,773 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:37,873 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:37,895 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:37,927 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:37,950 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:38,071 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,102 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:18:38,151 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,178 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:38,301 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,337 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:38,371 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,390 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:38,422 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,448 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:18:38,485 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,507 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:38,538 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,558 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:38,589 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,608 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:38,644 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:18:38,667 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:18:38,697 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:47,945 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:26:48,564 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:48,838 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:26:48,949 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:49,096 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:26:49,316 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:49,458 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:26:49,580 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:49,609 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:26:49,968 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:50,084 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:26:50,180 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:50,213 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:26:50,658 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:50,741 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:26:50,931 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:51,181 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:26:51,572 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:51,700 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:26:51,873 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:52,288 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:26:52,598 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:26:52,729 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:26:53,003 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:01,795 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:35:01,908 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:01,937 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:35:01,975 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,001 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:35:02,049 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,075 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:35:02,109 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,131 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:35:02,165 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,187 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:35:02,216 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,237 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:35:02,269 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,289 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:35:02,325 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,347 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:35:02,378 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,398 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:35:02,430 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,453 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:35:02,487 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:35:02,510 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:35:02,538 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,409 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:55:51,698 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,713 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:55:51,735 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,749 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:55:51,767 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,778 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 09:55:51,796 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,807 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:55:51,828 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,846 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:55:51,874 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,893 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:55:51,915 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,932 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 09:55:51,954 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:51,971 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:55:51,994 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:52,010 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:55:52,040 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:52,061 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:55:52,085 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 09:55:52,101 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 09:55:52,124 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:17,801 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 10:00:17,878 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:17,913 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 10:00:17,945 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:17,965 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 10:00:17,991 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,007 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 10:00:18,030 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,048 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 10:00:18,068 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,083 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 10:00:18,102 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,114 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 10:00:18,132 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,145 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 10:00:18,163 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,174 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 10:00:18,190 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,201 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 10:00:18,239 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,266 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 10:00:18,314 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 10:00:18,335 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 10:00:18,365 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 08:02:03,585 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 08:02:03,635 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12113bca0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-23 08:02:04,038 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12116c040>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-23 08:02:04,843 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12116c520>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-23 08:02:06,445 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12116c730>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-23 08:02:09,648 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x12116c8e0>: Failed to establish a new connection: [Errno 61] Connection refused')': /landzone?location=
+2025-02-23 08:03:37,454 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 08:03:38,586 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:38,648 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 08:03:38,783 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:38,870 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 08:03:38,950 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,051 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 08:03:39,082 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,145 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 08:03:39,326 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,348 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 08:03:39,388 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,414 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 08:03:39,480 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,553 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 08:03:39,600 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:39,822 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 08:03:39,984 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:40,113 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 08:03:40,257 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:40,423 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 08:03:40,478 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 08:03:40,512 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 08:03:40,551 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 11:55:08,110 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 11:55:08,132 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdae78c6450>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 11:55:08,534 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdadac4f740>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 11:55:09,337 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdada6abbc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 11:55:10,940 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdada6abe90>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 11:55:14,143 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdada6b8050>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 09:03:34,361 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:03:35,044 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,141 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:03:35,224 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,273 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:03:35,358 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,444 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:03:35,500 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,591 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:03:35,624 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,644 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:03:35,715 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,734 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:03:35,793 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,847 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:03:35,894 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:35,959 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:03:36,049 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:36,136 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:03:36,239 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:36,365 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:03:36,478 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:03:36,527 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:03:36,667 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:05:00,156 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:05:00,410 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f525ea0b410>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:05:00,819 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f525e644800>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:05:01,622 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f525e644950>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:05:03,255 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f525e644bc0>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:05:06,459 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f525e644da0>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:17:22,576 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:17:22,604 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f169c6b0170>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:17:23,007 - WARNING - Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f169c6b0200>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:17:23,809 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f169c6b0bf0>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:17:25,411 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f169c6b0f50>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 12:17:28,613 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f169c6b1130>: Failed to establish a new connection: [Errno 111] Connection refused')': /landzone?location=
+2025-02-23 09:19:16,754 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:19:18,117 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,193 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:19:18,245 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,327 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:19:18,381 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,452 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 09:19:18,496 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,602 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:19:18,663 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,699 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:19:18,807 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:18,864 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:19:18,971 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:19,058 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 09:19:19,127 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:19,205 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:19:19,260 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:19,296 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:19:19,437 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:19,474 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:19:19,552 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 09:19:19,631 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 09:19:19,745 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:39,535 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:20:40,087 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,160 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:20:40,240 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,330 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:20:40,389 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,465 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:20:40,519 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,592 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:20:40,651 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,767 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:20:40,832 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:40,925 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:20:40,986 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:41,070 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:20:41,142 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:41,241 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:20:41,297 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:41,447 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:20:41,583 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:41,711 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:20:41,805 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:20:41,885 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:20:41,950 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:26,749 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:40:27,680 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:27,961 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:40:28,120 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:28,546 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:40:28,652 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:29,043 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:40:29,177 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:29,454 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:40:29,661 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:30,150 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:40:30,416 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:30,815 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:40:31,022 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:31,440 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:40:31,544 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:31,701 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:40:31,840 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:31,948 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:40:32,288 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:32,642 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:40:32,736 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:40:32,938 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:40:33,010 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:04,733 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:42:04,926 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:04,966 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:42:05,025 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,126 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:42:05,169 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,220 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:42:05,255 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,318 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:42:05,347 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,395 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:42:05,435 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,485 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:42:05,816 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:05,982 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:42:06,026 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:06,216 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:42:06,289 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:06,345 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:42:06,391 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:06,459 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:42:06,514 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:42:06,560 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:42:06,589 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:10,457 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:50:10,723 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:10,880 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:50:10,942 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,139 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:50:11,189 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,263 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:50:11,313 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,444 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:50:11,493 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,581 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:50:11,643 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,801 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:50:11,861 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:11,945 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:50:11,983 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:12,044 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:50:12,085 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:12,140 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:50:12,185 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:12,248 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:50:12,287 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:50:12,352 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:50:12,397 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,248 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:58:41,485 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,557 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:58:41,613 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,672 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:58:41,702 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,738 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 12:58:41,770 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,884 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:58:41,926 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:41,992 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:58:42,031 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,087 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:58:42,143 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,251 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 12:58:42,303 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,363 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:58:42,394 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,431 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:58:42,462 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,520 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:58:42,559 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 12:58:42,640 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 12:58:42,694 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:19,537 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 13:01:19,894 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:19,966 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 13:01:20,001 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,055 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 13:01:20,087 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,137 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 13:01:20,164 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,264 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 13:01:20,302 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,356 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 13:01:20,388 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,452 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 13:01:20,484 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,533 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 13:01:20,559 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,603 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 13:01:20,630 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,669 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 13:01:20,696 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,747 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 13:01:20,776 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 13:01:20,830 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 13:01:20,866 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:23,867 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:50:27,719 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:28,439 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:50:28,765 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:29,803 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:50:30,376 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:30,909 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:50:31,092 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:32,026 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:50:32,394 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:33,161 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:50:33,689 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:34,792 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:50:35,432 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:35,910 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:50:36,491 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:37,459 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:50:38,894 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:40,186 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:50:41,758 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:43,268 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:50:43,978 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:50:44,946 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:50:45,914 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:17,291 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:58:17,802 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:18,108 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:58:18,238 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:18,514 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:58:18,586 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:18,711 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 14:58:18,876 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:19,077 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:58:19,180 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:19,300 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:58:19,386 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:19,527 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:58:19,615 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:19,703 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 14:58:19,831 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:20,131 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:58:20,227 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:20,508 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:58:20,703 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:20,881 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:58:20,922 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 14:58:21,029 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 14:58:21,104 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:16,324 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:16,589 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:16,749 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:16,797 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:16,876 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:16,936 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,030 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:17,075 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,150 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:17,201 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,321 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:17,374 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,487 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:17,541 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,615 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:17,666 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,795 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:17,851 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:17,946 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:18,074 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:18,190 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:18,244 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:18,353 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:18,427 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:35,666 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:35,783 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:35,867 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:35,913 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:35,966 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:36,019 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,082 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:00:36,129 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,200 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:36,280 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,357 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:36,392 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,445 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:36,494 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,540 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:00:36,581 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,622 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:36,660 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,721 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:36,777 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,863 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:36,932 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:00:36,992 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:00:37,058 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:10,074 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:10:10,369 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:10,453 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:10:10,507 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:10,581 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:10:10,648 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:10,743 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:10:10,814 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:10,889 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:10:10,938 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,018 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:10:11,091 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,162 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:10:11,213 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,292 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:10:11,358 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,442 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:10:11,491 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,586 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:10:11,629 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,718 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:10:11,775 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:10:11,865 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:10:11,978 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:21,761 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:20:22,104 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:22,205 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:20:22,283 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:22,501 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:20:22,581 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:22,914 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:20:23,088 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:23,299 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:20:23,501 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:23,770 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:20:23,833 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:23,945 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:20:24,036 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:24,248 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:20:24,312 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:24,455 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:20:24,520 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:24,626 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:20:24,677 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:24,779 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:20:24,835 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:20:24,938 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:20:25,001 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:24,717 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:30:25,082 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:25,195 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:30:25,261 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:25,491 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:30:25,636 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:25,834 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:30:25,935 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:26,168 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:30:26,319 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:26,567 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:30:26,650 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:26,787 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:30:26,868 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:26,963 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:30:27,022 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:27,141 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:30:27,255 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:27,440 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:30:27,564 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:27,975 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:30:28,237 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:30:28,491 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:30:28,632 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:30,131 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:30,680 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:30,766 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:30,814 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:30,904 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:31,001 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,322 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:31,399 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,451 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:31,484 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,530 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:31,566 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,627 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:31,681 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,808 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:31,867 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:31,927 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:31,982 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,034 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:32,077 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,123 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:32,154 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,205 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:32,232 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,475 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:32,586 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,671 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:32,709 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,787 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:32,822 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,891 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 17:56:32,922 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:32,967 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:33,002 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,039 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:33,067 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,103 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:33,129 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,159 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 17:56:33,189 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,258 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:33,297 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,445 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:33,539 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,596 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:33,635 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 17:56:33,712 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 17:56:33,754 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:18,435 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:00:19,290 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:19,483 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:00:19,592 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:19,705 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:00:19,786 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:19,890 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:00:19,984 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:20,083 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:00:20,159 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:20,241 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:00:20,305 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:20,469 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:00:20,555 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:20,827 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:00:20,931 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:21,084 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:00:21,144 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:21,244 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:00:21,323 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:21,447 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:00:21,501 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:00:21,618 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:00:21,688 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:53,586 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:11:54,303 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:54,472 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:11:54,588 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:54,786 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:11:54,944 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:55,174 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:11:55,478 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:55,897 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:11:56,240 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:56,561 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:11:56,673 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:56,989 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:11:57,079 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:57,320 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:11:57,434 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:57,663 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:11:57,891 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:58,154 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:11:58,310 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:58,497 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:11:58,592 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:11:58,732 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:11:58,861 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:11,826 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:20:12,682 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:12,727 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:20:12,757 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:12,790 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:20:12,818 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:12,855 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:20:12,894 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:12,957 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:20:13,021 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,102 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:20:13,152 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,231 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:20:13,308 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,457 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:20:13,537 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,656 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:20:13,721 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,799 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:20:13,839 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:13,911 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:20:13,973 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 18:20:14,043 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:20:14,085 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
+2025-02-23 15:25:29,806 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:25:30,143 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,232 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:25:30,279 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,444 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:25:30,589 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,636 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 15:25:30,696 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,739 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:25:30,811 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,842 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:25:30,872 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,902 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:25:30,946 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:30,973 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 15:25:31,028 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:31,097 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:25:31,136 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:31,189 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:25:31,253 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:31,294 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:25:31,338 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 15:25:31,375 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 15:25:31,426 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:03,348 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:04,135 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 18:44:04,958 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:06,380 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:06,708 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 18:44:06,955 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:08,026 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:08,166 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 18:44:09,258 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:09,725 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:09,876 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 18:44:10,039 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:10,484 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:10,542 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 18:44:10,659 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:11,046 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:11,197 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 18:44:11,432 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:11,934 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:11,992 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 18:44:12,315 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:12,710 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:12,801 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 18:44:13,099 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:13,283 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:13,328 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 18:44:13,517 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:13,944 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:14,080 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 18:44:14,378 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:14,991 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:15,134 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 18:44:15,656 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:16,716 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:17,235 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 18:44:17,738 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:32,283 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:32,743 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 18:44:32,901 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:34,077 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:34,219 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 18:44:34,582 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:35,022 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:35,094 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 18:44:35,243 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:35,433 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:44:35,501 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 18:44:35,687 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:36,002 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:36,295 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 18:44:36,618 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:37,132 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:37,281 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 18:44:37,874 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:38,980 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:39,204 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 18:44:39,898 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:40,872 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:44:41,472 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 18:44:42,838 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:44,606 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:45,205 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 18:44:45,480 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:45,980 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:46,162 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 18:44:46,439 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:46,667 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:46,783 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 18:44:46,939 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:44:47,089 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:44:47,162 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 18:44:47,270 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:20,260 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:50:20,584 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 18:50:21,108 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:21,592 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:50:21,656 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 18:50:22,039 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:22,403 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:50:22,456 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 18:50:23,196 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:23,756 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 18:50:23,810 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 18:50:24,462 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:24,807 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:50:24,844 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 18:50:25,202 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:25,375 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:50:25,440 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 18:50:25,540 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:25,677 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:50:25,713 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 18:50:25,837 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:26,092 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 18:50:26,204 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 18:50:26,839 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:26,976 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:50:27,091 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 18:50:27,575 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:27,668 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:50:27,699 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 18:50:27,835 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:27,961 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:50:27,987 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 18:50:28,041 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 18:50:28,179 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 18:50:28,205 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 18:50:28,253 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:15,290 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:00:15,673 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 19:00:15,938 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:16,056 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:00:16,090 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 19:00:16,184 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:16,424 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:00:16,470 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 19:00:16,591 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:16,710 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:00:16,750 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 19:00:16,834 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:16,943 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:00:16,991 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 19:00:17,137 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:17,239 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:00:17,267 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 19:00:17,349 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:17,818 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:00:17,847 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 19:00:18,090 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:18,177 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:00:18,374 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 19:00:18,460 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:18,567 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:00:18,599 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 19:00:18,680 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:18,975 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:00:18,999 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 19:00:19,109 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:19,439 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:00:19,469 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 19:00:19,619 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:00:19,991 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:00:20,038 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 19:00:20,218 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,073 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:10:06,419 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 19:10:06,587 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,618 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:10:06,631 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 19:10:06,660 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,685 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:10:06,698 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 19:10:06,734 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,761 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 19:10:06,773 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 19:10:06,805 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,832 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:10:06,845 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 19:10:06,873 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,901 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:10:06,913 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 19:10:06,942 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:06,968 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:10:06,983 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 19:10:07,019 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:07,048 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 19:10:07,063 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 19:10:07,103 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:07,156 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:10:07,182 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 19:10:07,232 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:07,271 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:10:07,292 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 19:10:07,346 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:07,397 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:10:07,423 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 19:10:07,486 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 19:10:07,518 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 19:10:07,531 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 19:10:07,560 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:28,200 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:00:28,375 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:00:28,375 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:00:28,460 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:00:28,559 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:28,570 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:28,663 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:00:28,690 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 21:00:28,757 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:28,801 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:00:28,830 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 21:00:28,940 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:28,974 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:00:28,995 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 21:00:29,082 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,122 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:00:29,141 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 21:00:29,193 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,231 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:00:29,248 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 21:00:29,301 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,353 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:00:29,397 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 21:00:29,471 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,533 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:00:29,549 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 21:00:29,585 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,620 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:00:29,645 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 21:00:29,690 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,723 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:00:29,740 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 21:00:29,776 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:29,822 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:00:29,842 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 21:00:29,934 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:00:30,007 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:00:30,035 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 21:00:30,239 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:13,392 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:13,567 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:10:14,122 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:14,281 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:14,331 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 21:10:14,510 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:14,554 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:14,581 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 21:10:14,684 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:14,736 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:14,765 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 21:10:14,845 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:14,892 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:10:14,937 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 21:10:15,040 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:15,082 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:10:15,104 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 21:10:15,177 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:15,226 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:10:15,257 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 21:10:15,433 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:15,598 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:10:15,635 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 21:10:15,839 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:15,888 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:10:15,930 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 21:10:16,066 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:16,143 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:10:16,180 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 21:10:16,298 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:16,449 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:10:16,549 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 21:10:17,223 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:17,441 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:10:17,585 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 21:10:18,150 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:59,000 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:59,101 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:10:59,344 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:59,420 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:59,462 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 21:10:59,624 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:10:59,708 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:10:59,763 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 21:11:00,242 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:00,401 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:11:00,475 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 21:11:01,259 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:01,543 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:11:01,653 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 21:11:01,961 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:02,036 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:11:02,072 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 21:11:02,302 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:02,405 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:11:02,599 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 21:11:03,893 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:03,994 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:11:04,056 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 21:11:04,288 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:04,362 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:11:04,412 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 21:11:05,077 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:05,300 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:11:05,379 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 21:11:06,274 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:06,363 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:11:06,438 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 21:11:06,828 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:11:06,910 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:11:06,967 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 21:11:07,591 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:05,534 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:20:05,984 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:20:06,198 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:06,227 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:20:06,255 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 21:20:06,359 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:06,389 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:20:06,420 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 21:20:06,582 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:06,619 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:20:06,654 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 21:20:06,813 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:06,843 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:20:06,878 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 21:20:07,013 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:07,046 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:20:07,073 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 21:20:07,202 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:07,251 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:20:07,321 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 21:20:07,589 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:07,622 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:20:07,647 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 21:20:07,831 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:07,882 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:20:07,939 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 21:20:08,160 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:08,191 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:20:08,216 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 21:20:08,336 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:08,382 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:20:08,431 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 21:20:08,744 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:20:08,773 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:20:08,801 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 21:20:08,959 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:06,676 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:30:07,151 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 21:30:07,504 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:07,539 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:30:07,580 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 21:30:07,895 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:07,929 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:30:07,983 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 21:30:08,334 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:08,366 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 21:30:08,413 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 21:30:08,968 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:09,015 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:30:09,096 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 21:30:09,401 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:09,443 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:30:09,489 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 21:30:10,141 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:10,208 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:30:10,832 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 21:30:11,382 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:11,419 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 21:30:11,521 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 21:30:11,804 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:11,836 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:30:11,941 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 21:30:12,267 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:12,302 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:30:12,402 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 21:30:12,756 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:12,796 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:30:12,870 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 21:30:13,533 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 21:30:13,573 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 21:30:13,678 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 21:30:14,039 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 22:35:56,932 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 22:35:57,373 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 22:35:57,483 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 22:35:57,498 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 22:35:58,671 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 22:35:58,703 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 22:35:58,728 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 22:35:58,861 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 22:35:59,516 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 22:35:59,549 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 22:35:59,638 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 22:36:00,186 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:00,222 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 22:36:00,350 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 22:36:00,922 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:00,955 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 22:36:01,458 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 22:36:02,169 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:02,202 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 22:36:02,256 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 22:36:02,820 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:02,856 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 22:36:03,068 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 22:36:03,825 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:03,858 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 22:36:03,929 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 22:36:04,651 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:04,686 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 22:36:05,298 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 22:36:05,914 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:05,945 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 22:36:05,998 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 22:36:06,443 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:06,477 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 22:36:06,704 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 22:36:07,501 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 22:36:07,538 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 22:36:07,706 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 22:36:08,499 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:25,210 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:25,522 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:25,838 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 23:13:25,988 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 23:13:27,584 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:27,963 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-23 23:13:30,560 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:30,632 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:30,866 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-23 23:13:32,020 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:32,077 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:32,318 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-23 23:13:33,943 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:33,987 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-23 23:13:34,274 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-23 23:13:35,965 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:36,029 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 23:13:36,196 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-23 23:13:39,220 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:39,261 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 23:13:39,446 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-23 23:13:40,713 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:40,754 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 23:13:41,224 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-23 23:13:43,279 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:43,332 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-23 23:13:43,489 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-23 23:13:44,547 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:44,598 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 23:13:45,438 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-23 23:13:46,954 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:47,084 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 23:13:47,648 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-23 23:13:48,732 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:48,786 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 23:13:49,105 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-23 23:13:51,169 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-23 23:13:51,219 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-23 23:13:51,479 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-23 23:13:52,919 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-24 01:15:47,577 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 01:15:47,750 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 01:15:47,807 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 05:15:55,983 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 05:15:56,206 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:24,158 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:24,320 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:24,740 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 07:26:24,743 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 07:26:28,841 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:28,885 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:29,047 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:29,127 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:29,516 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 07:26:29,529 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 07:26:31,854 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:31,888 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:31,978 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:32,698 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-24 07:26:34,775 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:34,826 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 07:26:35,185 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-24 07:26:37,206 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:37,275 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 07:26:37,696 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-24 07:26:40,317 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:40,376 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 07:26:41,134 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-24 07:26:42,687 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:42,738 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 07:26:43,707 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-24 07:26:46,998 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:47,091 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 07:26:47,474 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-24 07:26:49,010 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:49,053 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 07:26:49,585 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-24 07:26:52,218 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:52,261 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 07:26:52,547 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-24 07:26:53,925 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 07:26:53,990 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 07:26:54,469 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-24 07:27:04,996 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-24 07:27:05,190 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:37:15,591 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:17,575 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:18,284 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:19,133 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 08:37:20,421 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 08:37:21,173 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 08:37:35,625 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:37:36,086 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:37:36,533 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:38,567 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 08:37:38,893 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:37:39,157 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:39,946 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 08:37:46,676 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:37:46,826 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:47,399 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:37:47,515 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:37:48,392 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-24 08:37:48,619 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-24 08:38:03,033 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:03,123 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:03,187 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:38:04,315 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-24 08:38:15,063 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:15,180 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:38:15,995 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-24 08:38:24,358 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:24,450 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:38:25,706 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-24 08:38:31,442 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:31,624 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:38:32,649 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-24 08:38:44,876 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:45,076 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:38:45,967 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-24 08:38:54,022 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:38:54,081 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:38:55,623 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-24 08:39:05,039 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:39:05,154 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:39:05,705 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-24 08:39:11,438 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:39:11,543 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:39:12,827 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-24 08:39:25,848 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:39:26,138 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:39:26,514 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-24 08:39:30,855 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:40:10,981 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:40:13,238 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 08:40:33,978 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:40:34,201 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:40:35,264 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 08:40:46,339 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:40:46,440 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:40:48,069 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-24 08:41:04,223 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:41:04,357 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:41:05,430 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-24 08:41:17,880 - INFO - Arquivo produtos_db1.csv atualizado e enviado para MinIO.
+2025-02-24 08:41:17,987 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:41:19,633 - INFO - Download do arquivo fornecedores_db2.csv do MinIO concluído.
+2025-02-24 08:41:31,587 - INFO - Arquivo fornecedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:41:31,687 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:41:32,762 - INFO - Download do arquivo vendedores_db2.csv do MinIO concluído.
+2025-02-24 08:41:40,358 - INFO - Arquivo vendedores_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:41:40,498 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:41:42,210 - INFO - Download do arquivo vendas_db2.csv do MinIO concluído.
+2025-02-24 08:42:00,915 - INFO - Arquivo vendas_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:42:01,118 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-24 08:42:02,265 - INFO - Download do arquivo produtos_db2.csv do MinIO concluído.
+2025-02-24 08:42:12,099 - INFO - Arquivo produtos_db2.csv atualizado e enviado para MinIO.
+2025-02-24 08:42:12,169 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:42:13,696 - INFO - Download do arquivo fornecedores_db3.csv do MinIO concluído.
+2025-02-24 08:42:26,865 - INFO - Arquivo fornecedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:42:27,003 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:42:28,114 - INFO - Download do arquivo vendedores_db3.csv do MinIO concluído.
+2025-02-24 08:42:37,070 - INFO - Arquivo vendedores_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:42:37,154 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:42:39,779 - INFO - Download do arquivo vendas_db3.csv do MinIO concluído.
+2025-02-24 08:43:03,327 - INFO - Arquivo vendas_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:43:03,506 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-24 08:43:04,484 - INFO - Download do arquivo produtos_db3.csv do MinIO concluído.
+2025-02-24 08:43:11,551 - INFO - Arquivo produtos_db3.csv atualizado e enviado para MinIO.
+2025-02-24 08:47:46,762 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 08:47:50,240 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 09:03:57,045 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:04:01,158 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:04:14,303 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 09:04:17,209 - INFO - Download do arquivo fornecedores_db1.csv do MinIO concluído.
+2025-02-24 09:05:43,136 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 09:05:43,272 - INFO - Arquivo fornecedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 09:05:43,877 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:05:44,274 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:05:52,378 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 09:05:53,656 - INFO - Download do arquivo vendedores_db1.csv do MinIO concluído.
+2025-02-24 09:07:05,545 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 09:07:05,776 - INFO - Arquivo vendedores_db1.csv atualizado e enviado para MinIO.
+2025-02-24 09:07:06,282 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:07:15,447 - INFO - Download do arquivo vendas_db1.csv do MinIO concluído.
+2025-02-24 09:09:23,416 - INFO - Arquivo vendas_db1.csv atualizado e enviado para MinIO.
+2025-02-24 09:09:24,874 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-24 09:09:36,599 - INFO - Download do arquivo produtos_db1.csv do MinIO concluído.
+2025-02-24 09:10:53,020 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.

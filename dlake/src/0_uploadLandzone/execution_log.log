@@ -1,0 +1,26 @@
+2025-02-08 08:50:44,055 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:52:28,594 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:54:32,725 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:55:14,217 - INFO - Arquivo fornecedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:20,602 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:55:35,713 - INFO - Arquivo vendedores_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:35,816 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:55:41,923 - INFO - Arquivo vendas_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:42,120 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db1.duckdb concluída com sucesso.
+2025-02-08 08:55:51,291 - INFO - Arquivo produtos_db1.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:51,526 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 08:55:53,260 - INFO - Arquivo fornecedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:53,349 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 08:55:55,035 - INFO - Arquivo vendedores_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:55,079 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 08:55:56,500 - INFO - Arquivo vendas_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:56,613 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db2.duckdb concluída com sucesso.
+2025-02-08 08:55:58,190 - INFO - Arquivo produtos_db2.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:58,342 - INFO - Leitura da tabela fornecedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 08:55:59,831 - INFO - Arquivo fornecedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 08:55:59,857 - INFO - Leitura da tabela vendedores do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 08:56:01,146 - INFO - Arquivo vendedores_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 08:56:01,181 - INFO - Leitura da tabela vendas do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 08:56:02,480 - INFO - Arquivo vendas_db3.parquet atualizado e enviado para MinIO.
+2025-02-08 08:56:02,560 - INFO - Leitura da tabela produtos do banco /Volumes/MACBACKUP/workspaceDlake/dlake/db3.duckdb concluída com sucesso.
+2025-02-08 08:56:03,562 - INFO - Arquivo produtos_db3.parquet atualizado e enviado para MinIO.
